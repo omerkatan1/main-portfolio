@@ -3,41 +3,30 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-image: url("../Assets/background-img/triangle-mosaic/triangle-mosaic/triangle-mosaic.png");
+    background-color: rgb(173, 67, 67);
 }
 
-
-/* blank space div */
-.blank-space {
-    height: 400px   ;
-    width: 100%;
-}
 
 header {
     width: 100%;
-    height: 200px;
-    background-color: #939196;
-    border-bottom: 8px solid #323031;
+    padding: 30px;
+    text-align: center;
 }
 
-
-
-#quick-links {
-    position: relative;
-    width: 100%;
-    height: 290px;
-    background-color: #939196;
+#about-link,
+#portfolio-link,
+#otherlinks-link,
+#contact-link {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 25px;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
-#quick-links::after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: skewY(4deg);
+#about-link:hover,
+#portfolio-link:hover,
+#otherlinks-link:hover,
+#contact-link:hover {
+    cursor: pointer;
+    border-bottom: 3px solid rgb(194, 194, 51);
 }
