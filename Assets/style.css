@@ -1,24 +1,34 @@
-<<<<<<< HEAD
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-=======
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    background-image: url("../Assets/background-img/triangle-mosaic/triangle-mosaic/triangle-mosaic.png");
+}
+
+
+/* blank space div */
+.blank-space {
+    height: 400px   ;
+    width: 100%;
 }
 
 header {
+    width: 100%;
+    height: 200px;
+    background-color: #939196;
+    border-bottom: 8px solid #323031;
+}
+
+
+
+#quick-links {
     position: relative;
     width: 100%;
     height: 290px;
-    background-color: teal;
+    background-color: #939196;
 }
-header::after {
+#quick-links::after {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -30,5 +40,4 @@ header::after {
     left: 0;
     transform-origin: top left;
     transform: skewY(4deg);
->>>>>>> bbea54be101be1a382c373711d07e5378326cc85
 }
