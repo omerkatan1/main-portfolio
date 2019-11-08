@@ -8,6 +8,7 @@ body, html {
 
 
 .title-div {
+    display: table;
     text-align: center;
     width: 100%;
     height: 300px;
@@ -17,9 +18,11 @@ body, html {
     -moz-box-shadow: 0 0 20px #0e0a0a;
     -webkit-box-shadow: 0 0 20px #000000;
     box-shadow: 0 0 20px #000000;
+    
 }
 .title-text {
-    padding-top: 100px;
+    display: table-cell;
+    vertical-align: middle;
     font-size: 75px;
 }
 
