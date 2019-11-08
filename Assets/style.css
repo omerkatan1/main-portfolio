@@ -73,8 +73,9 @@ header {
 #aboutme-footer {
     width: 100%;
     position: relative;
+    display: inline-block;
+    bottom: 0px;
     text-align: center;
-    top: 75vh;
 }
 /* #title-div-about {
     display: table;
