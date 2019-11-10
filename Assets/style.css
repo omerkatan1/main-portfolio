@@ -42,8 +42,11 @@ header {
     text-align: center;
 }
 #downarrow {
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 48vw;
+    bottom: 10px;
 }
 #HiTxt {
     position: relative;
