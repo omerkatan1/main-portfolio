@@ -10,11 +10,14 @@ body, html {
 #intropage-content {
     height: 100vh;
     width: 100%;
+    z-index: 1;
 }
 
 header {
     width: 100%;
+    /* margin: 30px; */
     padding: 30px;
+    /* position: fixed; */
     text-align: right;
 }
 
@@ -69,11 +72,46 @@ header {
 
 
 #aboutme-content {
+    margin-top: 30vh;
     width: 100%;
     height: 100vh;
     background-color: whitesmoke;
 }
-
+#aboutme-titleBox {
+    width: 100%;
+    text-align: left;
+    padding-left: 7vw;
+}
+#slanted-tri {
+    text-align: center;
+    float: right;
+    position: relative;
+    height: 100px;
+    background-color: black;
+    width: 400px;
+}
+#slanted-tri::before {
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 100px;
+    left:0;
+    background-color: black;
+    transform: skewY(15deg);
+    z-index: 0;
+}
+#techlight-img {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    width: 380px;
+}
+#aboutme-titleText {
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    border-bottom: 5px solid rgb(173, 67, 67);
+}
 
 
 
